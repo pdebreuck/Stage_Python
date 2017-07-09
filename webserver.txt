@@ -9,3 +9,9 @@ update-rc.d apache2 enaable
 
 DHT sensor:
 https://learn.adafruit.com/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging/software-install-updated
+
+disable wifi & bluetooth:
+/etc/modprobe.d/raspi-blacklist.conf adding:
+
+blacklist brcmfmac
+blacklist brcmutil
