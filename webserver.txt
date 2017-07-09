@@ -1,0 +1,11 @@
+commandes utiles:
+
+apt-get install apache2 apache2-doc apache2-utils
+sudo /etc/init.d/apache2 stop
+sudo /etc/init.d/apache2 start
+sudo apt-get purge apache php5 php5-mysql mysql-server : to delete server
+update-rc.d apache2 disable : aussi après boot
+update-rc.d apache2 enaable
+
+DHT sensor:
+https://learn.adafruit.com/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging/software-install-updated
