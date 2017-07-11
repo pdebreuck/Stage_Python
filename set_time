@@ -9,7 +9,7 @@ sudo raspi-config
   Reboot your pi
 Next thing you can set time using this command
 
-sudo date -s "Mon Aug  12 20:14:11 UTC 2014"
+sudo date -s "Mon Aug  12 20:14:11 UTC 2014" or date --set="2 OCT 2006 18:00:00"
 More about data and time
 
 man date
